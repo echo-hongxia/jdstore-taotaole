@@ -18,6 +18,11 @@
 
         <li>
          <!--  <%= link_to("登录","#")%> -->
+           <li>
+             <%= link_to "#" do  %>
+             购物车 <i class="fa fa-shopping-cart"> </i> ( <%= current_cart.products.count %> )
+             <% end %>
+           </li>
 
           <% if !current_user%>
             <li><%= link_to("免费注册",new_user_registration_path) %></li>
@@ -60,7 +65,7 @@
       </div>
 
       <!--form test -->
-    
+
      <!--form test -->
 
     </div>
