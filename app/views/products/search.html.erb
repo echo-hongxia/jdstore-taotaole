@@ -1,0 +1,43 @@
+<div class="searchsec">
+  <div class="search-result">
+  <br>
+  <% if @products.blank? %>
+    <br>
+    <div class="search-info-title">搜索信息不能为空，请输入关键字搜索</div>
+  <% else %>
+    <div class="search-info-title"> 有关"<%= @query_string %>"的产品信息 </div>
+    <div class="searchpdu">
+
+      <div class="row">
+        <% @products.each do |product|%>
+          <div class="col-xs-6 col-md-3">
+            <div class="item">
+              <%= link_to product_path(product) do %>
+                <% if product.image.present? %>
+                  <div class="pic">
+                    <%= image_tag(product.image.thumb.url,size: "250x250")%>
+                  </div>
+                <% else %>
+                  <div class="pic">
+                    <%= image_tag("http://placehold.it/200x200&text=NoPic",class: "thumbnail",size: "200x200")%>
+                  </div>
+                <% end %>
+              <% end %>
+              <div class="name">
+                <%= product.title %>
+              </div>
+              <div class="price">
+                ¥ <%= product.price%>
+              </div>
+            </div>
+         </div>
+        <% end %>
+      </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <%= will_paginate(@products, renderer: BootstrapPagination::Rails) %>
+    </div>
+  <% end %>
+</div><!-- wdt1200-->
+</div>
