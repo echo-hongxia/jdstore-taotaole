@@ -198,7 +198,17 @@
           </div>
 
           <div class="descr-box">
+
             <p>
+              <div class="">
+                味道 : <%= rating_for @product, 'speed', disable_after_rate: true, star_path: '/images/ratyrate' %>
+              </div>
+              <% if @product.image.present? %>
+                <%= image_tag(@product.image.medium.url) %>
+              <% else %>
+                <%= image_tag("http://placehold.it/1200x600&text=No Pic") %>
+              <% end %>
+
                 <img src="https://img.youkastation.com/data/images/upload/Image//14850676356153.jpg"  style="line-height: 22.8571px; white-space: normal;">
                <img src="https://img.youkastation.com/data/images/upload/Image//14850675942303.jpg"  style="">
                <img src="https://img.youkastation.com/data/images/upload/Image//14850675968810.jpg"  style="line-height: 1.42857;">
