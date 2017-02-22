@@ -44,4 +44,8 @@ Rails.application.routes.draw do
   namespace :account do
     resources :orders
   end
+
+  resources :products do
+    resources :reviews
+  end
 end
