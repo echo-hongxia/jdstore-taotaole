@@ -99,9 +99,9 @@
       <div class="col-xs-6 col-md-3">
         <div class="item">
           <%= link_to product_path(product) do %>
-            <% if product.image.present? %>
+            <% if product.photos.present? %>
               <div class="pic">
-                <%= image_tag(product.image.thumb.url,size: "250x250")%>
+                <%= image_tag(product.photos[0].avatar.thumb.url, class: "thumbnail", size: "250x250") %>
               </div>
             <% else %>
               <div class="pic">

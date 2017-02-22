@@ -12,13 +12,33 @@
 
     <div class="gods-detail-box">
       <div class="container-fluid wdt1200 ">
-          <div class="gods-detail-pic">
-              <% if @product.image.present? %>
-                <%= image_tag(@product.image.medium.url, class: "thumbnail") %>
+         <div class="gods-detail-pic">
+          <div class="gods-main-pic">
+              <% if @photos.present? %>
+              <a class="magnifier-wrapper" href="#">
+                <%= image_tag(@photos.first.avatar.medium.url, class: "thumbnail",size: "400x400") %>
+              </a>
               <% else %>
                 <%= image_tag("http://placehold.it/400x400&text=No Pic", class: "thumbnail") %>
               <% end %>
-          </div><!--gods-detail-pic -->
+          </div>
+
+          <ul class="goods-thumb-pic">
+            <% if @photos.present? %>
+              <% @photos.each_with_index do |p, index| %>
+                <% if index == 0 %>
+                  <li class="border intro-preview-item intro-preview-activeItem fl">
+                <% else %>
+                  <li class="border intro-preview-item fl">
+                <% end %>
+                <% if index < 5 %>
+                  <%= image_tag(p.avatar.medium.url,size: "74x74") %>
+                <% end %>
+                  </li>
+              <% end %>
+            <% end %>
+          </ul>
+        </div><!--gods-detail-pic -->
           <div class="gods-detail-info">
             <h3> <%= @product.title %> </h3>
             <p class="desc">
@@ -64,7 +84,8 @@
     	<div class="container wdt1200 ">
       	<div class="pull-left goods">
         	<div class="pic">
-            <%= image_tag(@product.image.medium.url, size: "58x58" ) %>
+          <!--<%#= image_tag(@product.image.medium.url, size: "58x58" ) %>-->
+            <%= image_tag(@product.photos[0].avatar.thumb.url, class: "thumbnail", size: "58x58") %>
           </div>
           <div class="name">
           	<div class="nav-name"><%= @product.title%></div>
@@ -94,7 +115,7 @@
             <li>
               <a class="item" href="#">
                 <div class="pic">
-                  <%= image_tag(@product.image.medium.url, size: "160x160" ) %>
+                 <%= image_tag(@product.photos[0].avatar.thumb.url, class: "thumbnail", size: "160x160") %>
                 </div>
                 <div class="name">
                  <%= @product.title%>
@@ -108,7 +129,7 @@
             <li>
               <a class="item" href="#">
                 <div class="pic">
-                  <%= image_tag(@product.image.medium.url, size: "160x160" ) %>
+                  <%= image_tag(@product.photos[0].avatar.thumb.url, class: "thumbnail", size: "160x160") %>
                 </div>
                 <div class="name">
                  <%= @product.title%>
@@ -122,7 +143,7 @@
             <li>
               <a class="item" href="#">
                 <div class="pic">
-                  <%= image_tag(@product.image.medium.url, size: "160x160" ) %>
+                  <%= image_tag(@product.photos[0].avatar.thumb.url, class: "thumbnail", size: "160x160") %>
                 </div>
                 <div class="name">
                  <%= @product.title%>
