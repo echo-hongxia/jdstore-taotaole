@@ -4,5 +4,6 @@ class Product < ApplicationRecord
   accepts_nested_attributes_for :photos
   ratyrate_rateable "speed", "engine", "price"
   has_many :goodsdetails  #产品详情图
-  accepts_nested_attributes_for :goodsdetails 
+  accepts_nested_attributes_for :goodsdetails
+  has_many :reviews
 end

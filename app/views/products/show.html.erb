@@ -215,8 +215,16 @@
           </div>
         </div> <!-- 产品详情页-->
 
-        <!--<div class="comment-box">
-          fff
+        <div class="comment-box">
+          <h3 class="reviews_title">
+            <%= @product.reviews.count %> Reviews
+          </h3>
+          <hr>
+          <div id="reivews">
+            <%= render @product.reviews%>
+            <hr>
+            <%= render "reviews/form"%>
+          </div>
         </div> --><!-- 产品评论页-->
     </div><!--detail container-fluid -->
 

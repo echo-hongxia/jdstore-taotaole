@@ -9,4 +9,5 @@ class User < ApplicationRecord
   end
   has_many :orders
    ratyrate_rater
+   has_many :reviews
 end
