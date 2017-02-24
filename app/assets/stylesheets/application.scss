@@ -351,6 +351,7 @@
     margin-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
+
     //height: 40px;
     color: #333;
 }
@@ -359,6 +360,7 @@
     margin-bottom: 5px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 30px;
     //height: 22px;
     text-align: left;
 }
@@ -668,6 +670,7 @@ margin-bottom: 15px;
 .gods-detail-box {
 
   background-color: #fff;
+  padding-top: 30px;
 }
 .gods-detail-box .gods-detail-pic {
   width: 430px;
@@ -685,11 +688,10 @@ margin-bottom: 15px;
 
 .intro-preview-item {
     padding: 1px;
-    margin-right: 13px;
     overflow: hidden;
 }
 .border{
-  border: 1px solid #DDDDDD;
+  //border: 1px solid #DDDDDD;
 }
 
 .gods-detail-box .gods-detail-info {
@@ -764,6 +766,7 @@ margin-bottom: 15px;
     display: inline-block;
     padding-right: 20px;
     padding-left: 20px;
+    border:0px;
     border-right: 1px solid #ccc;
 }
 
@@ -791,7 +794,7 @@ margin-bottom: 15px;
 
 .goods-detail-sec .history-box .item .pic {
   position: relative;
-  padding: 20px 20px 30px 20px;
+  padding: 10px 20px 0px 20px;
 }
 
 .detail-box .params-box {
@@ -844,7 +847,7 @@ margin-bottom: 15px;
 
 .goods-params {
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 35px;
     line-height: 28px;
 }
 .goods-params .params-key {
@@ -852,6 +855,7 @@ margin-bottom: 15px;
     padding-left: 15px;
     width: 16%;
     color: #999;
+    font-size: 16px;
 }
 
 .goods-params .params-value {
@@ -865,4 +869,10 @@ margin-bottom: 15px;
     left: -7px;
     font-size: 26px;
     color: #fd5400;
+}
+
+.test-item {
+    float: right;
+    width: 980px;
+
 }
