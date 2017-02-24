@@ -3,31 +3,40 @@
 <%= simple_form_for [:admin, @product] do |f| %>
 
   <div class="group">
+    <%= f.label :"产品名称" %>
     <%= f.input :title %>
   </div>
 
   <div class="group">
+    <%= f.label :"产品卖点描述" %>
     <%= f.input :description %>
   </div>
 
   <div class="group">
+    <%= f.label :"库存" %>
     <%= f.input :quantity %>
   </div>
 
   <div class="group">
+    <%= f.label :"商城价" %>
     <%= f.input :price %>
   </div>
 
   <div class="group">
-    <!--<%#= f.input :image, as: :file %> -->
-    <%= f.label :avatar %> <br>
-    <%= f.file_field :avatar,:multiple => true,name: "photos[avatar][]" %>
+    <%= f.label :"市场价" %>
+    <%= f.input :decprice %>
   </div>
 
   <div class="group">
     <!--<%#= f.input :image, as: :file %> -->
-    <%= f.label :avatar %> <br>
-    <%= f.file_field :avatar,:multiple => true,name: "goodsdetails[avatar][]" %>
+    <%= f.label :"产品图" %> <br>
+    <%= f.file_field :avatar,:multiple => true,name: "photos[avatar][]" %><br>
+  </div>
+
+  <div class="group">
+    <!--<%#= f.input :image, as: :file %> -->
+    <%= f.label :"宝贝详情" %> <br>
+    <%= f.file_field :avatar,:multiple => true,name: "goodsdetails[avatar][]" %><br>
   </div>
 
   <%= f.submit "Submit", data: { disable_with: "Submitting..." } %>
