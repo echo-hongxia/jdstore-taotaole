@@ -8,6 +8,11 @@
   </div>
 
   <div class="group">
+    <%= f.label :"产品分类" %>
+    <%= select_tag(:category_id, options_for_select(@categories), :prompt => "Category") %>
+   </div>
+
+  <div class="group">
     <%= f.label :"产品卖点描述" %>
     <%= f.input :description %>
   </div>

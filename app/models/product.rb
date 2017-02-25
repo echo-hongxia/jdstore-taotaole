@@ -6,4 +6,5 @@ class Product < ApplicationRecord
   has_many :goodsdetails  #产品详情图
   accepts_nested_attributes_for :goodsdetails
   has_many :reviews
+  belongs_to :category
 end
