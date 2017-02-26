@@ -308,6 +308,7 @@
   width: 1200px;
 
 
+
 //height: 500px;
   position: relative;
 
@@ -363,6 +364,7 @@
     padding-bottom: 30px;
     //height: 22px;
     text-align: left;
+    color: #333;
 }
 
 .col-md-3 {
@@ -735,7 +737,7 @@ margin-bottom: 15px;
     border: 1px solid #ddd;
 }
 .goods-detail-sec .goodsbar .tab-nav {
-  padding: 5px 80px;
+  padding: 15px 80px;
 
 }
 
@@ -792,6 +794,11 @@ margin-bottom: 15px;
 
 }
 
+.goods-detail-sec .history-box a {
+  text-decoration: none;
+
+}
+
 .goods-detail-sec .history-box .item .pic {
   position: relative;
   padding: 10px 20px 0px 20px;
@@ -806,7 +813,8 @@ margin-bottom: 15px;
   background-color: #fff;
 }
 
-.detail-box .descr-box {
+.detail-box .descr-box,
+.detail-box .comment-box {
     margin-bottom: 30px;
     padding: 20px 30px;
     background-color: #fff;
@@ -874,5 +882,43 @@ margin-bottom: 15px;
 .test-item {
     float: right;
     width: 980px;
+    display: none;
+    background-color: #fff;
+    margin-bottom: 10px;
+
+}
+
+
+
+.reviews_title {
+  padding-left: 20px;
+}
+
+.reviews_wrapper {
+  height: 100px;
+  padding-left: 30px;
+  padding-top: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.reivews {
+  padding-left: 10px;
+}
+
+.reviewsform {
+  padding-top: 20px;
+
+}
+
+.goodsbar a {
+  text-decoration: none;
+}
+
+.goodsbar h3 {
+  margin-top: 0px;
+}
+.goodsbar .j_addCart a {
+  color: #fff;
+  text-decoration: none;
 
 }

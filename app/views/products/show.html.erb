@@ -9,7 +9,6 @@
         <li class="active"><%= @product.category.name %></li>
         <li class="divider-sm">/</li>
         <li class="active"><%= @product.title %></li>
-
       </ul>
     </div> <!--breadcrumb -->
 
@@ -70,7 +69,7 @@
 
             <div class="goods-params">
                <div class="params-key">
-                 数量
+                 库存
                </div>
                <div class="params-value">
                  <%= @product.quantity %>
@@ -111,7 +110,8 @@
         <div class="pull-right btns">
         	                    <!--<button class="btn btn-primary" type="button">立即购买</button>-->
           <button class="btn btn-primary j_addCart" type="button" data-auto="0">
-            <i class="fa fa-cart-plus"></i> <%= link_to("加入购物车", add_to_cart_product_path(@product), method: :post) %>
+            <i class="fa fa-cart-plus"></i>
+            <%= link_to("加入购物车", add_to_cart_product_path(@product), method: :post) %>
 
           </button>
           </div>
@@ -125,49 +125,32 @@
           </div>
 
           <ul class="goods-list has-space">
-            <li>
-              <a class="item" href="#">
-                <div class="pic">
-                 <%= image_tag(@product.photos[0].avatar.thumb.url, class: "", size: "160x160") %>
-                </div>
-                <div class="name">
-                 <%= @product.title%>
-                </div>
-                <div class="price">
-                  <strong> <%= @product.price %></strong>
-                </div>
-              </a>
-            </li>
+            <% Product.limit(6).each do |product| %>
+                  <li>
+                    <%= link_to(product_path(product), class: "item")  do %>
+                     <div class="pic">
+                      <% if product.photos.present? %>
+                        <%= image_tag(product.photos[0].avatar.thumb.url, class: "", size: "160x160") %>
+                      <% else %>
+                        <%= image_tag("http://placehold.it/200x200&text=No Pic") %>
+                      <% end %>
 
-            <li>
-              <a class="item" href="#">
-                <div class="pic">
-                  <%= image_tag(@product.photos[0].avatar.thumb.url, class: "", size: "160x160") %>
-                </div>
-                <div class="name ">
-                 <%= @product.title%>
-                </div>
-                <div class="price">
-                  <strong> <%= @product.price %></strong>
-                </div>
-              </a>
-            </li>
+                    </div>
 
-            <li>
-              <a class="item" href="#">
-                <div class="pic">
-                  <%= image_tag(@product.photos[0].avatar.thumb.url, class: "", size: "160x160") %>
-                </div>
-                <div class="name">
-                 <%= @product.title%>
-                </div>
-                <div class="price">
-                  <strong> <%= @product.price %></strong>
-                </div>
-              </a>
-            </li>
+                    <div class="name">
+                     <%= @product.title%>
+                    </div>
+                    <div class="price">
+                     ¥<%= @product.price %>
+                    </div>
+                      <% end %>
+                </li>
 
-          </ul>  <!-- goods-list -->
+            <% end %>
+
+          </ul>
+
+
 
         </div><!-- history-box 历史产品记录-->
         <div class="detail-box">
@@ -210,7 +193,7 @@
 
           </div>
           <div class="detail">
-          <div class="test-item">
+          <div class="test-item" style="display: block;">
             <div class="descr-box">
               <p>
                 <% if @goodsdetails.present? %>
@@ -228,18 +211,22 @@
           <div class="test-item">
             <div class="comment-box">
               <h3 class="reviews_title">
-                <%= @product.reviews.count %> Reviews
+                共 <%= @product.reviews.count %> 个评价
               </h3>
             <hr>
-            <div class="">
-              味道 : <%= rating_for @product, 'speed', disable_after_rate: true, star_path: '/images/ratyrate' %>
-            </div>
+
             <div id="reivews">
+              <!--<div class="">
+                味道 : <%= rating_for @product, 'speed', disable_after_rate: true, star_path: '/images/ratyrate' %>
+              </div> -->
               <%= render @product.reviews%>
-              <hr>
+
               <%= render "reviews/form"%>
+
+
             </div>
-          </div> --><!-- 产品评论页comment-box-->
+
+          </div> <!-- 产品评论页comment-box-->
         </div>
       </div><!--detail -->
     </div><!--detail box-->

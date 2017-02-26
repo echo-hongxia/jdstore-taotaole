@@ -2,11 +2,11 @@
    <div class="pull-left">
        <p class="lead"><%= review.body %></p>
        <p>
-           <small>Submitted
-               <strong><%= time_ago_in_words(review.created_at) %>
-                   ago</strong>
-               by
-               <%= review.user.email %></small>
+  
+               <small>
+                   <strong> <%= review.created_at %></strong>
+                   by
+                   <%= review.user.email %></small>
        </p>
    </div>
    <div>
