@@ -277,8 +277,12 @@
   //margin-right: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
 }
-
+.hotpic img {
+}
 
 .lp-section-4{
   display: block;
@@ -920,5 +924,35 @@ margin-bottom: 15px;
 .goodsbar .j_addCart a {
   color: #fff;
   text-decoration: none;
+
+}
+
+.breadcrumb a {
+  color: #777777;
+  text-decoration: none;
+}
+
+.lp-section-4  .thumbnail ,
+.searchsec .thumbnail{
+  border: 0px;
+  margin-bottom: 0px;
+}
+
+.lp-section-4 ul,
+.searchsec ul{
+    -webkit-padding-start: 0px;
+}
+
+.lp-section-4 .item .pic ,
+.searchsec .item .pic {
+    overflow: hidden;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+}
+
+.lp-section-4 li ,
+.searchsec li {
+  display: inline-block;
+  width: 220px;
 
 }

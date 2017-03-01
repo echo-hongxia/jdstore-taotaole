@@ -35,6 +35,7 @@
     </a>
   </div> <!-- myCarousel-->
 
+
 </div>
 </div>
 <div class="lp-section-2">
@@ -46,7 +47,7 @@
   </div>
   <div class="row hotpdu">
     <div class="col-xs-12 col-sm-6 col-md-4">
-
+  
         <div class="hotpic">
             <%= image_tag('https://ww1.sinaimg.cn/large/006tNbRwgy1fcos8a5891j30ku0a0gmh.jpg',width: "100%",height: "100%") %>
         </div>
@@ -119,5 +120,31 @@
      </div>
     <% end %>
   </div>
+
+  <ul >
+    <% @products.each do |product|%>
+
+        <li class="item">
+          <%= link_to product_path(product) do %>
+            <% if product.photos.present? %>
+              <div class="pic">
+                <%= image_tag(product.photos[0].avatar.thumb.url, class: "thumbnail", size: "200x200") %>
+              </div>
+            <% else %>
+              <div class="pic">
+                <%= image_tag("http://placehold.it/200x200&text=NoPic",class: "thumbnail",size: "200x200")%>
+              </div>
+            <% end %>
+          <% end %>
+          <div class="name">
+            <%= product.title %>
+          </div>
+          <div class="price">
+            ¥ <%= product.price%>
+          </div>
+        </li>
+
+    <% end %>
+  </ul>
 </div>
 </div>

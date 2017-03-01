@@ -4,7 +4,7 @@
     <div class="container-fluid wdt1200 ">
     	<ul class="breadcrumb">
       	<li class="note-color">您的位置：</li>
-        <li><a href="/">首页</a></li>
+        <li><a href="/" class="fontlink;">首页</a></li>
         <li class="divider-sm">/</li>
         <li class="active"><%= @product.category.name %></li>
         <li class="divider-sm">/</li>
@@ -142,6 +142,8 @@
                     </div>
                     <div class="price">
                      ¥<%= @product.price %>
+                     <span>
+                     <del style="color: #999;padding-left:10px;">    ¥<%= @product.decprice %></del></span>
                     </div>
                       <% end %>
                 </li>
