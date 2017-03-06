@@ -182,7 +182,8 @@
 .searchform .input-group .form-control {
   //width: 350px;
   height: 41px;
-  border: 2px solid #EF6C00;
+  border: 1px solid #EF6C00;
+  color: #eeeeee;
 }
 
 .searchform .input-group .btn {
@@ -955,4 +956,8 @@ margin-bottom: 15px;
   display: inline-block;
   width: 236px;
 
+}
+
+.searchstyle body {
+   font-size: 12px;
 }
