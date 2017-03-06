@@ -1004,6 +1004,25 @@ margin-bottom: 15px;
 }
 
 .lp-section-7 {
-    height: 220px;
-  background-image: url('https://ww1.sinaimg.cn/large/006tNbRwgy1fch3o344x9j31hc0b415x.jpg');
+  background-image:url('https://ww2.sinaimg.cn/large/006tNbRwgy1fddkyyxwhjj31kw0a8aat.jpg');
+//background: linear-gradient(rgba(12,12,9,0.4), rgba(12,12,9,0.4)),url(/assets/lp-bg-ee2662ec003744ab101741975f50086c5fcdfffe81d423bd8b2c2516561ab4ff.jpg);
+  background-position: center 80%;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-top: 80px;
+  //padding-bottom: 90px;
+  width: 100%;
+  min-width: 960px;
+  height: 200px;
+  position: relative;
+  opacity: 0.7;
+}
+
+.lp-section-7 .bottom-content {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+
 }
