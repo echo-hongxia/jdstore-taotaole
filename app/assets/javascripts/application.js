@@ -23,13 +23,13 @@
 $(document).ready(function() {
     $('#myCarousel').carousel({interval: 3000});
 
-    $(".hotpic img").parent().height($(".hotpic img").height());
-    $(".hotpic img").hover(function(){
+    $(".hotpic1 img").parent().height($(".hotpic1 img").height());
+    $(".hotpic1 img").hover(function(){
         $(this).animate({
-          "width":"150%",
-          "height":"150%",
-          "marginLeft":"-25%",
-          "marginTop":"-25%"
+          "width":"110%",
+          "height":"110%",
+          "marginLeft":"-5%",
+          "marginTop":"-5%"
         },"fast");
       //  $("").silibings(".fh5co-listing-copy").children("h3").animate()
 
@@ -42,7 +42,14 @@ $(document).ready(function() {
         },200);
       });
 
-
+      var width = $(window).width();
+      var imgWidth = 1920;
+      if (imgWidth > width) {
+        $(".carousel-inner > .item img").css("maxWidth",imgWidth+"px");
+        $(".carousel-inner > .item img").width(imgWidth);
+        var left = -(imgWidth-width)/2;
+        $(".carousel-inner > .item img").css("marginLeft",left+"px");
+      }
 });
 
 // 图片切换
