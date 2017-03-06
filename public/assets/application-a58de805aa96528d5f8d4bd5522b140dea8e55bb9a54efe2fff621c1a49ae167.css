@@ -12571,14 +12571,14 @@ button.close {
   color: #ffffff;
   padding: 5px 15px;
   line-height: 20px;
-  background-color: #EF6C00;
+  background-color: #CC8902;
   height: auto;
 }
 
 /* line 37, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #EF6C00;
+  color: #CC8902;
   background-color: transparent;
 }
 
@@ -12591,7 +12591,7 @@ button.close {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #EF6C00;
+  background-color: #CC8902;
 }
 
 /* line 53, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
@@ -12605,14 +12605,14 @@ button.close {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #fff;
-  background-color: #EF6C00;
+  background-color: #CC8902;
 }
 
 /* line 67, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #fff;
-  background-color: #EF6C00;
+  background-color: #CC8902;
 }
 
 /* line 74, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
@@ -12624,7 +12624,7 @@ button.close {
 /* line 80, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .panelstyle {
   color: #fff;
-  background-color: #EF6C00;
+  background-color: #CC8902;
 }
 
 @media (min-width: 768px) {
@@ -12643,9 +12643,11 @@ button.close {
   margin-top: 10px;
   margin-bottom: 10px;
   height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-/* line 108, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 109, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .logobar .activity {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -12653,69 +12655,70 @@ button.close {
   height: 100px;
 }
 
-/* line 115, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 116, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .logobar .searchform {
   margin-top: 30px;
   margin-bottom: 10px;
   margin-right: 50px;
 }
 
-/* line 123, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 124, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .logobar .btn-cart {
   position: relative;
   margin-top: 30px;
   padding-left: 60px;
   padding-right: 25px;
   padding-bottom: 10px;
-  background-image: url("https://ww2.sinaimg.cn/large/006tNbRwgy1fcoscmp6fuj30140143yb.jpg");
+  background-image: url("https://ww3.sinaimg.cn/large/006tNbRwgy1fdd8qdxuqcj30140143yb.jpg");
   background-repeat: no-repeat;
   background-position: left center;
   height: 41px;
   border-color: #ccc;
 }
 
-/* line 138, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 139, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .logobar .acart .btn-default {
   border-color: #ccc;
 }
 
-/* line 143, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 144, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .logobar .acart .btn {
   padding-top: 8px;
   border: 2px solid #ccc;
 }
 
-/* line 151, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 152, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .logobar .btn-cart .badge {
   position: absolute;
   top: -10px;
   right: 15px;
   display: inline-block;
   padding: 5px 10px;
-  background-color: #fd5400;
+  background-color: red;
   border-radius: 21.14286px;
   font-size: 12px;
   color: #fff;
 }
 
-/* line 163, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 164, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .searchstyle {
   display: block;
   color: #999;
 }
 
-/* line 167, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 168, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .searchstyle div {
   display: inline-block;
   margin: 5px;
 }
 
-/* line 173, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 174, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .searchstyle a {
   color: #999;
+  font-size: 12px;
 }
 
-/* line 177, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 179, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .searchform {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -12723,45 +12726,47 @@ button.close {
   width: 450px;
 }
 
-/* line 183, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 185, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .searchform .input-group .form-control {
   height: 41px;
-  border: 2px solid #EF6C00;
+  border: 1px solid #CC8902;
+  color: #eeeeee;
+  font-size: 12px;
 }
 
-/* line 189, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 193, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .searchform .input-group .btn {
   height: 41px;
-  background-color: #EF6C00;
+  background-color: #CC8902;
   color: #fff;
-  border: 2px solid  #EF6C00;
+  border: 2px solid  #CC8902;
 }
 
-/* line 199, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 203, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .main-content {
   background-color: #f5f5f5;
 }
 
-/* line 203, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 207, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .ftitle {
   margin-top: 25px;
   margin-bottom: 10px;
 }
 
-/* line 207, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 211, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .mtsize {
   font-size: 20px;
   display: inline;
 }
 
-/* line 212, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 216, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .stsize {
   font-size: 16px;
   color: #999;
   display: inline;
 }
 
-/* line 217, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 221, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .lp-section-1 {
   background-repeat: no-repeat;
   background-position: center 80%;
@@ -12772,7 +12777,7 @@ button.close {
   text-align: center;
 }
 
-/* line 237, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 241, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .lp-section-2 {
   display: block;
   background-position: center 80%;
@@ -12785,7 +12790,7 @@ button.close {
   position: relative;
 }
 
-/* line 252, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 256, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .lp-section-2 .hotpdu .col-xs-12,
 .lp-section-2 .hotpdu .col-sm-6,
 .lp-section-2 .hotpdu .col-md-4 {
@@ -12793,25 +12798,28 @@ button.close {
   border: 2px solid #f5f5f5;
 }
 
-/* line 263, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 267, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .hotpiclink1 {
   margin-left: 35px;
   margin-right: 0px;
 }
 
-/* line 268, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 272, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .hotpiclink2 {
   margin-left: 0px;
   margin-right: 35px;
 }
 
-/* line 273, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 277, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .hotpic {
   margin-top: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
 }
 
-/* line 284, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 292, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .lp-section-4 {
   display: block;
   background-color: #f5f5f5;
@@ -12824,7 +12832,7 @@ button.close {
   position: relative;
 }
 
-/* line 298, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 306, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .lp-section-5 {
   display: block;
   background-position: center 80%;
@@ -12839,7 +12847,7 @@ button.close {
   position: relative;
 }
 
-/* line 317, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 326, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .lp-section-6 {
   display: block;
   background-color: #f5f5f5;
@@ -12854,7 +12862,7 @@ button.close {
   position: relative;
 }
 
-/* line 334, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 343, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .item {
   position: relative;
   overflow: hidden;
@@ -12864,14 +12872,14 @@ button.close {
   margin-bottom: 5px;
 }
 
-/* line 344, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 353, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .item .pic {
   overflow: hidden;
   position: relative;
   padding: 20px 10px 10px 25px;
 }
 
-/* line 350, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 359, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .item .name {
   overflow: hidden;
   margin-top: 5px;
@@ -12880,40 +12888,42 @@ button.close {
   color: #333;
 }
 
-/* line 359, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 369, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .item .price {
   margin-bottom: 5px;
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 30px;
   text-align: left;
+  color: #333;
 }
 
-/* line 367, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 379, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .col-md-3 {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 372, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 384, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .footnav {
   padding-top: 20px;
 }
 
-/* line 377, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 389, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .login-wap {
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 80px;
   padding-right: 120px;
-  background-color: #6e18ff;
+  background-color: #f1ece8;
 }
 
-/* line 387, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 399, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .login-wap .login-banner img {
   width: 100%;
 }
 
-/* line 396, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 408, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .login-user {
   background-color: #fff;
   margin-top: 30px;
@@ -12924,55 +12934,55 @@ button.close {
   padding-bottom: 20px;
 }
 
-/* line 415, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 427, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .login-user .btn-login {
   width: 100%;
   height: 35px;
-  background-color: #EF6C00;
+  background-color: #CC8902;
   color: #fff;
   margin-bottom: 15px;
 }
 
-/* line 423, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 435, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .fontlink {
   color: #999;
   text-decoration: none;
 }
 
-/* line 428, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 440, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .carousel-inner > .item {
   text-align: center;
 }
 
-/* line 431, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 443, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .carousel-inner > .item > img {
   width: 1920px;
   /* Set width to 100% */
 }
 
-/* line 446, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 458, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .carousel-caption h3 {
   color: #fff !important;
 }
 
 @media (max-width: 600px) {
-  /* line 451, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+  /* line 463, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
   .carousel-caption {
     display: none;
     /* Hide the carousel text when the screen is less than 600 pixels wide */
   }
 }
-/* line 456, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 468, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .carousel-control.left {
   background-image: linear-gradient(to right, transparent 0, rgba(0, 0, 0, 0.0001) 100%);
 }
 
-/* line 461, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 473, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .carousel-control.right {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, transparent 100%);
 }
 
-/* line 466, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 478, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .footer {
   display: block;
   background: #f5f5f5;
@@ -12990,26 +13000,26 @@ button.close {
   position: relative;
 }
 
-/* line 487, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 499, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .footer .container-fluid {
   width: 1200px;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-/* line 492, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 504, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .footer p {
   margin: 0;
 }
 
-/* line 495, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 507, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .footer img {
   max-width: 100%;
 }
 
-/* line 498, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 510, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .footer h3 {
-  border-bottom: 2px solid #EF6C00;
+  border-bottom: 2px solid #CC8902;
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
@@ -13017,7 +13027,7 @@ button.close {
   text-transform: uppercase;
 }
 
-/* line 507, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 519, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .footer ul {
   font-size: 13px;
   list-style-type: none;
@@ -13026,18 +13036,18 @@ button.close {
   margin-top: 15px;
 }
 
-/* line 515, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 527, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .footer ul li a {
   padding: 0 0 5px 0;
   display: block;
 }
 
-/* line 519, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 531, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .footer a {
   color: #666;
 }
 
-/* line 522, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 534, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .supportLi h4 {
   font-size: 20px;
   font-weight: lighter;
@@ -13046,7 +13056,7 @@ button.close {
   padding-bottom: 0;
 }
 
-/* line 529, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 541, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .newsletter-box input#appendedInputButton {
   background: #FFFFFF;
   display: inline-block;
@@ -13056,7 +13066,7 @@ button.close {
   width: 100%;
 }
 
-/* line 537, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 549, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .newsletter-box .btn {
   border: medium none;
   -webkit-border-radius: 3px;
@@ -13071,18 +13081,18 @@ button.close {
   color: #fff;
 }
 
-/* line 550, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 562, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .newsletter-box {
   overflow: hidden;
 }
 
-/* line 553, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 565, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .bg-gray {
   background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
   box-shadow: 0 1px 0 #B4B3B3;
 }
 
-/* line 557, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 569, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .social li {
   background: none repeat scroll 0 0 #B5B5B5;
   border: 2px solid #B5B5B5;
@@ -13105,7 +13115,7 @@ button.close {
   -o-transition: all 0.5s ease 0s;
 }
 
-/* line 578, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 590, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .social li:hover {
   transform: scale(1.15) rotate(360deg);
   -webkit-transform: scale(1.1) rotate(360deg);
@@ -13114,47 +13124,47 @@ button.close {
   -o-transform: scale(1.1) rotate(360deg);
 }
 
-/* line 585, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 597, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .social li a {
   color: #EDEFF1;
 }
 
-/* line 588, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 600, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .social li:hover {
   border: 2px solid #ccc;
-  background: #EF6C00;
+  background: #CC8902;
 }
 
-/* line 592, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 604, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .social li a i {
   font-size: 16px;
   margin: 0 0 0 5px;
   color: #EDEFF1 !important;
 }
 
-/* line 598, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 610, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .lp-section-2 h2 {
   font-family: '黑体';
 }
 
-/* line 604, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 616, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .contactus img {
   display: inline;
   width: 49%;
 }
 
-/* line 609, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 621, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .name {
   height: 40px;
   overflow: hidden;
 }
 
-/* line 614, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 626, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .searchsec {
   background-color: #f5f5f5;
 }
 
-/* line 618, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 630, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .search-result {
   display: block;
   background-position: center 80%;
@@ -13166,7 +13176,7 @@ button.close {
   position: relative;
 }
 
-/* line 632, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 644, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .search-info-title {
   background-color: #fff;
   height: auto;
@@ -13177,24 +13187,24 @@ button.close {
   margin-bottom: 10px;
 }
 
-/* line 642, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 654, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .search-result .searchpdu .row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 647, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 659, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .ordersec .row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-/* line 653, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 665, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .wdt1200 {
   width: 1200px;
 }
 
-/* line 657, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 669, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .secmid {
   background-position: center 80%;
   background-size: cover;
@@ -13202,30 +13212,47 @@ button.close {
   margin-right: auto;
 }
 
-/* line 664, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 676, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .secbakgrd {
   background: #f5f5f5;
 }
 
-/* line 669, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 681, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .gods-detail-box {
   background-color: #fff;
+  padding-top: 30px;
 }
 
-/* line 673, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 686, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .gods-detail-box .gods-detail-pic {
   width: 430px;
   float: left;
 }
 
-/* line 678, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 691, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.gods-detail-box .gods-detail-pic .goods-thumb-pic li {
+  display: inline;
+}
+
+/* line 695, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.gods-detail-box .gods-detail-pic ul {
+  padding: 0px;
+}
+
+/* line 700, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.intro-preview-item {
+  padding: 1px;
+  overflow: hidden;
+}
+
+/* line 708, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .gods-detail-box .gods-detail-info {
   float: right;
   width: 750px;
   background-color: #fff;
 }
 
-/* line 685, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 715, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goodsbar {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -13237,20 +13264,20 @@ button.close {
   border-top: 1px solid #ddd;
 }
 
-/* line 696, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 726, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .history-box {
   float: left;
   margin-right: 20px;
   width: 200px;
 }
 
-/* line 704, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 734, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .detail-box {
   float: right;
   width: 980px;
 }
 
-/* line 711, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 741, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goodsbar .goods .pic {
   display: inline;
   float: left;
@@ -13259,12 +13286,12 @@ button.close {
   border: 1px solid #ddd;
 }
 
-/* line 718, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 748, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-detail-sec .goodsbar .tab-nav {
-  padding: 5px 80px;
+  padding: 15px 80px;
 }
 
-/* line 723, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 753, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goodsbar .goods .name {
   display: inline;
   float: right;
@@ -13274,13 +13301,13 @@ button.close {
   font-size: 12px;
 }
 
-/* line 731, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 761, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goodsbar .goods .name .nav-name {
   height: 34px;
   padding-bottom: 9px;
 }
 
-/* line 736, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 766, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-detail-sec .btn-primary {
   border-color: #fd5400;
   background-color: #fd5400;
@@ -13289,26 +13316,27 @@ button.close {
   padding: 10px 30px;
 }
 
-/* line 746, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 776, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goodsbar h3 .item {
   display: inline-block;
   padding-right: 20px;
   padding-left: 20px;
+  border: 0px;
   border-right: 1px solid #ccc;
 }
 
-/* line 753, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 784, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goodsbar h3 .item.active {
   color: #fd5400;
 }
 
-/* line 757, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 788, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-detail-sec .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-/* line 762, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 793, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .history-box .title {
   margin-bottom: 10px;
   padding-top: 20px;
@@ -13317,36 +13345,42 @@ button.close {
   text-align: center;
 }
 
-/* line 770, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 801, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-detail-sec .history-box ul {
   padding: 0px;
 }
 
-/* line 775, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
-.goods-detail-sec .history-box .item .pic {
-  position: relative;
-  padding: 20px 20px 30px 20px;
+/* line 806, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.goods-detail-sec .history-box a {
+  text-decoration: none;
 }
 
-/* line 780, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 811, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.goods-detail-sec .history-box .item .pic {
+  position: relative;
+  padding: 10px 20px 0px 20px;
+}
+
+/* line 816, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .detail-box .params-box {
   padding: 20px 30px;
   background-color: #fff;
 }
 
-/* line 785, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 821, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .detail-box .advantage-box {
   background-color: #fff;
 }
 
-/* line 789, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
-.detail-box .descr-box {
+/* line 825, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.detail-box .descr-box,
+.detail-box .comment-box {
   margin-bottom: 30px;
   padding: 20px 30px;
   background-color: #fff;
 }
 
-/* line 795, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 832, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .detail-box .advantage-box .item {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -13355,25 +13389,25 @@ button.close {
   float: left;
 }
 
-/* line 803, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 840, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-detail-sec .breadcrumb > li + li:before {
   content: "";
   padding: 0px;
 }
 
-/* line 808, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 845, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-detail-sec .breadcrumb {
   margin-bottom: 0px;
   padding-top: 13px;
   padding-bottom: 13px;
 }
 
-/* line 814, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 851, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-detail-sec .descr-box {
   background-color: #fff;
 }
 
-/* line 818, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 855, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .gods-detail-box .gods-detail-info .price-box {
   position: relative;
   margin-top: 15px;
@@ -13384,35 +13418,188 @@ button.close {
   overflow: hidden;
 }
 
-/* line 828, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 865, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-params {
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 35px;
   line-height: 28px;
 }
 
-/* line 833, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 870, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-params .params-key {
   float: left;
   padding-left: 15px;
   width: 16%;
   color: #999;
+  font-size: 16px;
 }
 
-/* line 840, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 878, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-params .params-value {
   position: relative;
   float: right;
   width: 84%;
 }
 
-/* line 845, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+/* line 883, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
 .goods-params .params-value .sale-price {
   position: relative;
   top: -2px;
   left: -7px;
   font-size: 26px;
   color: #fd5400;
+}
+
+/* line 891, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.test-item {
+  float: right;
+  width: 980px;
+  display: none;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+/* line 902, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.reviews_title {
+  padding-left: 20px;
+}
+
+/* line 906, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.reviews_wrapper {
+  height: 100px;
+  padding-left: 30px;
+  padding-top: 10px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+/* line 913, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.reivews {
+  padding-left: 10px;
+}
+
+/* line 917, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.reviewsform {
+  padding-top: 20px;
+}
+
+/* line 922, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.goodsbar a {
+  text-decoration: none;
+}
+
+/* line 926, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.goodsbar h3 {
+  margin-top: 0px;
+}
+
+/* line 929, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.goodsbar .j_addCart a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 935, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.breadcrumb a {
+  color: #777777;
+  text-decoration: none;
+}
+
+/* line 940, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.lp-section-4 .thumbnail,
+.searchsec .thumbnail {
+  border: 0px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* line 948, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.lp-section-4 ul,
+.searchsec ul {
+  -webkit-padding-start: 0px;
+}
+
+/* line 953, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.lp-section-4 .item .pic,
+.searchsec .item .pic {
+  overflow: hidden;
+  position: relative;
+  padding: 10px 10px 10px 10px;
+}
+
+/* line 960, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.lp-section-4 li,
+.searchsec li {
+  display: inline-block;
+  width: 236px;
+}
+
+/* line 967, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.searchstyle body {
+  font-size: 12px;
+}
+
+/* line 971, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.hotpic-prove {
+  width: 60%;
+  height: 60%;
+  opacity: 0.7;
+}
+
+/* line 977, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.hotpic-p {
+  padding-top: 20px;
+  text-align: center;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+/* line 985, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.hotpic-pic {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 992, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.hotpic-hz {
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #999;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+/* line 1001, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.hotpic-pz {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+
+/* line 1007, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.lp-section-7 {
+  background-image: url("https://ww2.sinaimg.cn/large/006tNbRwgy1fddkyyxwhjj31kw0a8aat.jpg");
+  background-position: center 80%;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-top: 80px;
+  width: 100%;
+  min-width: 960px;
+  height: 200px;
+  position: relative;
+  opacity: 0.7;
+}
+
+/* line 1024, /Users/apple/railsproject/jdstore-taotaole/app/assets/stylesheets/application.scss */
+.lp-section-7 .bottom-content {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
 }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
