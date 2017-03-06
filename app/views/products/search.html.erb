@@ -33,31 +33,7 @@
         <% end %>
       </ul>
 
-      <div class="row">
-        <% @products.each do |product|%>
-          <div class="col-xs-6 col-md-3">
-            <div class="item">
-              <%= link_to product_path(product) do %>
-                <% if product.image.present? %>
-                  <div class="pic">
-                    <%= image_tag(product.image.thumb.url,size: "250x250")%>
-                  </div>
-                <% else %>
-                  <div class="pic">
-                    <%= image_tag("http://placehold.it/200x200&text=NoPic",class: "thumbnail",size: "200x200")%>
-                  </div>
-                <% end %>
-              <% end %>
-              <div class="name">
-                <%= product.title %>
-              </div>
-              <div class="price">
-                ¥ <%= product.price%>
-              </div>
-            </div>
-         </div>
-        <% end %>
-      </div>
+
       </div>
     </div>
     <div class="text-center">
