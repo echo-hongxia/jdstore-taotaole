@@ -23,8 +23,8 @@
 $(document).ready(function() {
     $('#myCarousel').carousel({interval: 3000});
 
-    $(".hotpic1 img").parent().height($(".hotpic1 img").height());
-    $(".hotpic1 img").hover(function(){
+    $(".hotpic img").parent().height($(".hotpic img").height());
+    $(".hotpic img").hover(function(){
         $(this).animate({
           "width":"110%",
           "height":"110%",
